@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./Style.css">
+    <script src="https://kit.fontawesome.com/8b495c07a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skill">Skill</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Lakshmi</span><br> from India</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-------about------>
+    <div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/user.png">   
+        </div>
+
+        <div class="about-col-2"> 
+            <h1 class="subtitle">About <span>Me</span> </h1>  
+            <p> I'm Self-taught Front-end Web Developer,
+                who is also an Innovative Fresher Web Developer.
+                Seeking to assist Web Weave Dynamics in creating dynamic solutions
+                by leveraging skills in JavaScript, HTML, and CSS and want to secure a challenging 
+                and rewarding role as a web developer in a reputed organization, where I can utilize my skills and
+                 knowledge to deliver high-quality web applications and contribute to the company's growth.
+                </p>  
+        
+        <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+         </div>
+        
+         <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Web development</span><br>Frontend/Backend development</li>
+                <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                <li><span>App development</span><br>Building Android/ios apps</li>
+            </ul>
+         </div>
+
+         <div class="tab-contents" id="experience">
+            <ul>
+                            <li><span>2024</span><br>Group project at StarUp company</li>
+                            <li><span>2023</span><br>Create first Website individually</li>
+                            <li><span>2022- 2023</span><br>Internship at ekart eCommerce</li> 
+                          
+            </ul>
+         </div>
+
+         <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2024</span><br>Web development Course</li>
+                            <li><span>2019</span><br>Graduated</li>
+            </ul>
+         </div>
+
+        </div>
+    </div>
+</div>
+    </div>
+     <!-------Skill------>
+     <div id="Skill">
+<div class="timeline">
+    <div class="wrapper">
+        <h1 class=>Techincal <span>Skills</span></h1>
+    </div>
+<div class="content">
+    <img src="images/html.png"/>
+    <h2>Html</h2>
+    <p>Proficient Level</p>
+</div>
+<div class="content">
+    <img src="images/css.png"/>
+    <h2>CSS</h2>
+    <p>Intermediate Level</p>
+</div>
+<div class="content">
+    <img src="images/JS.png"/>
+    <h2>JavaScript</h2>
+    <p>Intermediate Level</p>
+</div>
+<div class="content">
+    <img src="images/Rjs.png"/>
+    <h2>ReactJs</h2>
+    <p>Intermediate Level</p>
+</div>
+<div class="content">
+    <img src="images/nodejs.png"/>
+    <h2>Nodejs</h2>
+    <p>Intermediate Level</p>
+</div>
+<div class="content">
+    <img src="images/expressjs.png"/>
+    <h2>Expressjs</h2>
+    <p>Front-end Frameworks</p>
+</div>
+<div class="content">
+    <img src="images/boot.jpeg"/>
+    <h2>Bootstrap</h2>
+    <p>Front-end Frameworks</p>
+</div>
+<div class="content">
+    <img src="images/mys.png"/>
+    <h2>MySql</h2>
+    <p>Databases</p>
+</div>
+<div class="content">
+    <img src="images/git.jpeg"/>
+    <h2>Git</h2>
+    <p>Version Control</p>
+</div>
+</div>
+</div>
+     
+    <!-------Services------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My <span>Services</span></h1> 
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <P>As a web developer, I offer custom website design, responsive web development,
+                     e-commerce setup, and CMS integration. I build custom web applications, 
+                     and handle backend services like server-side programming, database management, and API development. 
+                     On the front-end, I focus on HTML/CSS/JavaScript coding. 
+                     </P>
+                     <a href="https://www.linkedin.com/in/lakgautam/">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Design</h2>
+                <P>I provide custom website design, ensuring your site is visually appealing
+                     and tailored to your brand. I create responsive designs that work seamlessly across all devices 
+                     and focus on UI/UX design to enhance user experience. My services include graphic design for logos and banners.
+                     </P>
+                     <a href="https://github.com/lakgautam">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Developer</h2>
+                <P>I provide services that include designing and developing mobile applications for both iOS 
+                    and Android platforms. My services cover end-to-end development,
+                     from initial concept and design through to coding, testing, and deployment. 
+                     I also offer ongoing maintenance and updates to keep your app running smoothly and efficiently. 
+                     </P>
+                     <a href="https://www.linkedin.com/in/lakgautam/">Learn more</a>
+              </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-------Portfolio------>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My <span> Work</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app designed to bring all your favorite music into one convenient place.
+                             This app allows users to explore and enjoy a vast library of songs
+                              across all genres, providing an enjoyable listening experience. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p> The app designed to bring all your shopping needs into one convenient platform, and allows users to browse and
+                             purchase a wide range of products across various categories,
+                              providing a seamless and enjoyable shopping experience 
+                             </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/lakgautam" class="btn">See more</a>
+        </div>
+    </div>
+
+ <!-------Contact------>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span>Me</span></h1>
+                <p><i class="fa-solid fa-envelope"></i>lakgautam21@gmail.com</p>
+                <P><i class="fa-solid fa-square-phone"></i>+91 93x xxxx xxx</i></P>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/lakgautam/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/lakgautam"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/lakgautam/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="6fd12fae-c668-4fed-9bdc-401c5e94a492">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2"><span>Submit</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Developed with <i class="fa-solid fa-heart"></i> by lakgautam © 2024</p>
+    </div>
+ </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
